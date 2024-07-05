@@ -11,5 +11,11 @@ export default function App() {
     </View>
   );
 }
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#08f',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 
