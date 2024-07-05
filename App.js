@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  const yourName = "YourName"; // Replace with your actual name
+  const yourName = "Francis"; // Replace with your actual name
   
   return (
     <View style={styles.container}>
@@ -18,4 +18,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-
+  text: {
+    fontSize: 24,
+  },
+  boldText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+});
